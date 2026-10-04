@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Providensi three-stroke spark</title>
+  <rect width="64" height="64" fill="#000000"/>
+  <g fill="none" stroke="#E8BE62" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 28 54 C 34 49 33 44 31 39 C 25 25 29 12 40 7"/>
+    <path d="M 31 39 C 26 29 20 23 12 22"/>
+    <path d="M 31 39 C 38 29 45 25 53 25"/>
+  </g>
+  <circle cx="31" cy="39" r="3.2" fill="#DCE0E7"/>
+</svg>
