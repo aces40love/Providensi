@@ -244,6 +244,26 @@ if (sampleDialog) {
   });
 }
 
+for (const form of document.querySelectorAll('[data-lead-magnet]')) {
+  const firstName = form.elements.namedItem('fields[first_name]');
+  const status = form.querySelector('[data-resource-status]');
+  const button = form.querySelector('button[type="submit"]');
+  form.addEventListener('input', () => {
+    firstName.setCustomValidity('');
+    status.hidden = true;
+  });
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    firstName.setCustomValidity(firstName.value.trim() ? '' : 'Please enter your first name.');
+    if (!form.reportValidity()) return;
+    status.textContent = 'Preview checked. No subscription was created and no email was sent. ' + form.dataset.resourceTitle + ' still needs its approved asset and Kit delivery setup.';
+    status.hidden = false;
+    form.reset();
+    status.focus({ preventScroll: true });
+  });
+  button.disabled = false;
+}
+
 const quoteForm = document.getElementById('quote-form');
 if (quoteForm) {
   const result = document.getElementById('quote-result');

@@ -1,0 +1,25 @@
+PROVIDENSI WEBSITE REVIEW
+October 5, 2026
+
+This package contains the current review website, its required images and assets, and five ungated banking resource outlines.
+
+TO VIEW THE COMPLETE SITE
+1. Extract the ZIP and keep its folders together.
+2. Open a terminal in the extracted folder that contains index.html.
+3. With Python 3 installed, run:
+
+   python3 -m http.server 8080 --bind 127.0.0.1
+
+4. Open http://127.0.0.1:8080/ in a browser on that computer.
+5. Press Ctrl+C in the terminal when you are finished.
+
+Another local static-site preview tool can serve the same folder. Use a local web server rather than opening index.html directly, so the site's folder-based navigation works correctly.
+
+REVIEW STATUS
+The banking resource signup sections are previews. Kit is not connected, no subscriber information is saved or sent, and the resource links open draft outlines rather than finished downloads. The custom inquiry form prepares an unsent draft for review.
+
+The site includes the latest approved imagery and removes the explanatory captions beneath the photographs. Images, navigation, and responsive layouts were checked in the local preview.
+
+This is a review package, not a public deployment. Search indexing is disabled, but that is not password protection. Keep the package within the intended review group.
+
+Private meeting notes, the transcript, strategy documents, credentials, authoring files, and unused image alternatives are not included. External sign-in, download, and policy links still point to their original destinations.
