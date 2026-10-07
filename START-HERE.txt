@@ -1,25 +1,36 @@
-PROVIDENSI WEBSITE REVIEW
-October 5, 2026
+PROVIDENSI WEBSITE AND BANKING GUIDES
+Team review package • October 6, 2026
 
-This package contains the current review website, its required images and assets, and five ungated banking resource outlines.
+This package contains the updated review website, required assets, and the five complete banking-guide PDFs. It is for team review before publication.
 
-TO VIEW THE COMPLETE SITE
+READ THE FIVE GUIDES
 1. Extract the ZIP and keep its folders together.
-2. Open a terminal in the extracted folder that contains index.html.
-3. With Python 3 installed, run:
+2. Open banking/team-review/index.html in a browser.
+3. Use each “Open the guide” link. No name, email, or signup is required.
+
+The PDFs can also be opened directly from the banking/team-review folder. The separate Providensi banking-guides ZIP includes editable Word versions as well as PDFs.
+
+BROWSE THE COMPLETE WEBSITE
+The full site uses folder-based navigation, so use a local static-site server for a complete website review.
+1. Open a terminal in the extracted folder containing index.html.
+2. With Python 3 installed, run:
 
    python3 -m http.server 8080 --bind 127.0.0.1
 
-4. Open http://127.0.0.1:8080/ in a browser on that computer.
-5. Press Ctrl+C in the terminal when you are finished.
+3. Open http://127.0.0.1:8080/ in a browser on that computer.
+4. Press Ctrl+C in the terminal when finished.
 
-Another local static-site preview tool can serve the same folder. Use a local web server rather than opening index.html directly, so the site's folder-based navigation works correctly.
+The review library will be at http://127.0.0.1:8080/banking/team-review/index.html on that computer. A localhost address is not a remote team-sharing address. Each reviewer can run their extracted copy locally, or the team can separately arrange appropriate review hosting.
+
+WHAT CHANGED
+• Small team-review links open all five complete banking guides without signup.
+• The banking resource names and summaries now match the educational guides.
+• The quoted company-deployment paragraph on About names Providensi. Its deployment link is preserved.
+• The existing separate shared-footer service attribution and external contact, sign-in, download, privacy, and terms destinations are unchanged.
 
 REVIEW STATUS
-The banking resource signup sections are previews. Kit is not connected, no subscriber information is saved or sent, and the resource links open draft outlines rather than finished downloads. The custom inquiry form prepares an unsent draft for review.
+The guides are complete drafts, not published downloads. Their fictional examples are labeled. The signup forms are local previews: Kit is not connected and no subscriber details are sent or stored. Inquiry forms prepare an unsent draft.
 
-The site includes the latest approved imagery and removes the explanatory captions beneath the photographs. Images, navigation, and responsive layouts were checked in the local preview.
+The temporary library and PDF access are created only for the review site and are omitted from a fresh public build. Do not upload this ZIP as the published site. Review links are ungated, and indexing instructions are not password protection. Share this copy only with the intended reviewers.
 
-This is a review package, not a public deployment. Search indexing is disabled, but that is not password protection. Keep the package within the intended review group.
-
-Private meeting notes, the transcript, strategy documents, credentials, authoring files, and unused image alternatives are not included. External sign-in, download, and policy links still point to their original destinations.
+Private meeting notes, transcripts, strategy documents, credentials, authoring scripts, tests, source backups, and unused image alternatives are excluded. Nothing was sent or uploaded while preparing this package.

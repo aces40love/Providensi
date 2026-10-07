@@ -256,7 +256,7 @@ for (const form of document.querySelectorAll('[data-lead-magnet]')) {
     event.preventDefault();
     firstName.setCustomValidity(firstName.value.trim() ? '' : 'Please enter your first name.');
     if (!form.reportValidity()) return;
-    status.textContent = 'Preview checked. No subscription was created and no email was sent. ' + form.dataset.resourceTitle + ' still needs its approved asset and Kit delivery setup.';
+    status.textContent = 'Preview checked. No subscription was created and no email was sent. ' + form.dataset.resourceTitle + ' is drafted; final publication approval and Kit delivery setup are still pending.';
     status.hidden = false;
     form.reset();
     status.focus({ preventScroll: true });
